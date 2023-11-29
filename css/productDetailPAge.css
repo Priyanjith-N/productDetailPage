@@ -517,6 +517,17 @@ a{
     overflow-y: scroll;
     height: 50vh;
 }
+.content::-webkit-scrollbar{
+    width: 5px;
+}
+.content::-webkit-scrollbar-thumb{
+    background-color: #0F0;
+    border-radius: 10px;
+}
+.mobilenavigationList ul::-webkit-scrollbar-track{
+    border-radius: 10px;
+    box-shadow: none;
+}
 /*---------- end of main ----------*/
 
 /*---------- footer ----------*/
