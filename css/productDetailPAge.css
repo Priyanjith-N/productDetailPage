@@ -481,8 +481,6 @@ a{
 .userReview{
     padding: 1.5rem;
     border-bottom: 1px solid #F0F0F0;
-
-
 }
 .userReview h2{
     color: #212121;
@@ -524,7 +522,7 @@ a{
     background-color: #0F0;
     border-radius: 10px;
 }
-.mobilenavigationList ul::-webkit-scrollbar-track{
+.content::-webkit-scrollbar-track{
     border-radius: 10px;
     box-shadow: none;
 }
